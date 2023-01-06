@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	background-color: #FFF4D0;
+}
+
+main {
+}
+
+h1 {
+	font-family: 'Chela One', cursive;
+	font-size: 30pt;
+	color: #79830C;
+}
+
+#btn_gerar{
+	font-size: 20pt;
+	background-color: #79830C;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	width: 100%;
+}
+
+/* ---- Genéricos ---- */
+
+.mt-5 {
+	margin-top: 5pt;
+}
+
+.campo-insercao {
+	width: 100%;
+	font-size: 15pt;
+	border: none;
+	padding: 8px;
+	border-radius: 10px;
+	background-color: #D1CEC7;
+}

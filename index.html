@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Gerador de Link para Whatsapp</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<main> 
+			<h1>Gerar link's para<br/>conversar do Whatsapp</h1>
+			<p>Basta digitar o número do contato no campo abaixo,<br/>e se preferir digitar um texto de sugestão!<br/> após basta clicar em gerar </p>
+			<input type="text" class="campo-insercao" placeholder="(Digite o Número aqui!) ex: +554699999" id="s_campoNumero"/>
+			<br/>
+			<textarea type="text" class="mt-5 campo-insercao"  placeholder="(Mensagem a ser enviada) Opcional" id="s_campoMensagem"></textarea>
+			<br/>
+			<button class="mt-5" onclick="gerarLink()" id="btn_gerar">Gerar!</button>
+		</main>
+		
+		<script src="script.js"></script>
+	</body>
+</html>
